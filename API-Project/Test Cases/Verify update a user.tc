@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify update a user</name>
+   <tag>smoketest</tag>
+   <comment></comment>
+   <testCaseGuid>793831aa-78d2-4b85-9ce2-cc6f5df2a020</testCaseGuid>
+</TestCaseEntity>

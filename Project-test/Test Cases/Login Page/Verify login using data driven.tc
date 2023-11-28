@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify login using data driven</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8e143dd5-1064-4197-963f-c4e0e980a83d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6cbfb2ec-d60a-4066-b5bb-649777ce1c69</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>73b146e1-cd77-4d2c-a1a7-eecf0fc32453</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c0e918a5-75d3-4ea6-a34a-8f959f3be439</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6cbfb2ec-d60a-4066-b5bb-649777ce1c69</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>73b146e1-cd77-4d2c-a1a7-eecf0fc32453</id>
+      <masked>false</masked>
+      <name>pwd</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c0e918a5-75d3-4ea6-a34a-8f959f3be439</id>
+      <masked>false</masked>
+      <name>expected_msg</name>
+   </variable>
+</TestCaseEntity>

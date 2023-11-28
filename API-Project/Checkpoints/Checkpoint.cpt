@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/Test Data</source-url>
+   </source-info>
+   <taken-date>2023-11-25T14:30:02.415+07:00</taken-date>
+   <column-names>
+      <column-name>username</column-name>
+      <column-name>pwd</column-name>
+      <column-name>expected_msg</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "John Doe",
+      "checked": false
+    },
+    {
+      "value": "ThisIsNotAPassword",
+      "checked": false
+    },
+    {
+      "value": "Make Appointment",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "checked": false
+    },
+    {
+      "value": "ThisIsNotAPassword",
+      "checked": false
+    },
+    {
+      "value": "Login failed! Please ensure the username and password are valid.",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "John Doe",
+      "checked": false
+    },
+    {
+      "checked": false
+    },
+    {
+      "value": "Login failed! Please ensure the username and password are valid.",
+      "checked": false
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>
