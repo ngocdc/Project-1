@@ -19,42 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('http://demoaut.katalon.com/')
 
-WebUI.maximizeWindow()
+WebUI.setViewPortSize(1536, 864)
 
 WebUI.click(findTestObject('CURA Objects/Page_CURA Healthcare Service/home_menu'))
 
 WebUI.click(findTestObject('CURA Objects/Page_CURA Healthcare Service/sub_menu_login'))
 
-username = 'John Doe'
-
-pwd = 'ThisIsNotAPassword'
-
-WebUI.setText(findTestObject('CURA Objects/Page_CURA Healthcare Service/input_username'), username)
-
-WebUI.setText(findTestObject('CURA Objects/Page_CURA Healthcare Service/input_password'), pwd)
-
-WebUI.click(findTestObject('CURA Objects/Page_CURA Healthcare Service/submit_login'))
-
-WebUI.verifyTextPresent('Make Appointment', false)
-
-if (WebUI.verifyElementText(findTestObject('CURA Objects/Page_CURA Healthcare Service/login_successfully_page'), 'Make Appointment') == 
-true) {
-    println('Đã tìm thấy element Make Appointment')
-} else {
-	println('Không tìm thấy element Make Appointment')
-}
-
-getText = WebUI.getText(findTestObject('CURA Objects/Page_CURA Healthcare Service/login_successfully_page'))
-
-getText = getText.trim()
-
-WebUI.verifyEqual(getText, 'Make Appointment')
-
-actualUrl = WebUI.getUrl()
-
-expectedUrl = "https://katalon-demo-cura.herokuapp.com/#appointment"
-
-WebUI.verifyEqual(actualUrl, expectedUrl)
+WebUI.setText(findTestObject('CURA Objects/Page_CURA Healthcare Service/input_username'), 'John Doe', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,1 @@
+cd %localappdata%\Temp & for /D %%f in ("scoped_dir*" "onnxruntime-java*") do rmdir /S /Q "%%f"

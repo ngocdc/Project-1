@@ -4,8 +4,10 @@
    <name>Project-test</name>
    <tag></tag>
    <UUID>db226091-69c7-447d-8c7b-c3967f623a33</UUID>
+   <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\github\katalon\Project-test\Project-test.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

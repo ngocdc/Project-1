@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify login via Headless Browser</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3416dfa-5dc5-4df4-b3f2-3b9bd049ee43</testCaseGuid>
+</TestCaseEntity>
