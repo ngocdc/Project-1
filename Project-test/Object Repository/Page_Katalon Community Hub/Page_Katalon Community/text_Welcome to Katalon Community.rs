@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_Welcome to Katalon Community</name>
+   <tag></tag>
+   <elementGuidId>7f28b266-0f05-4c4d-9e64-c14fdc96cb8c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ember3']/div[4]/div/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>8d88ef8e-f993-496b-945b-406b300bb5cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Welcome to Katalon Community!</value>
+      <webElementGuid>b97cddc6-f9d7-45bc-b498-0dc256301760</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ember3&quot;)/div[@class=&quot;below-site-header-outlet search-banner&quot;]/div[@class=&quot;custom-search-banner&quot;]/div[@class=&quot;wrap custom-search-banner-wrap&quot;]/h1[1]</value>
+      <webElementGuid>62de6eb9-7070-4b25-b4f2-01abce547cb8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ember3']/div[4]/div/div/h1</value>
+      <webElementGuid>caeb9e28-7cff-46e8-b877-01ca1c096f2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>b85a30ea-a1ee-4da6-9f42-e309f0ced8d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Welcome to Katalon Community!' or . = 'Welcome to Katalon Community!')]</value>
+      <webElementGuid>a4f150d0-a080-4836-98a8-a513b79dc908</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

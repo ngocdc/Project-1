@@ -41,7 +41,7 @@ if (WebUI.verifyElementText(findTestObject('CURA Objects/Page_CURA Healthcare Se
 true) {
     println('Đã tìm thấy element Make Appointment')
 } else {
-	println('Không tìm thấy element Make Appointment')
+    println('Không tìm thấy element Make Appointment')
 }
 
 getText = WebUI.getText(findTestObject('CURA Objects/Page_CURA Healthcare Service/login_successfully_page'))
@@ -52,7 +52,7 @@ WebUI.verifyEqual(getText, 'Make Appointment')
 
 actualUrl = WebUI.getUrl()
 
-expectedUrl = "https://katalon-demo-cura.herokuapp.com/#appointment"
+expectedUrl = 'https://katalon-demo-cura.herokuapp.com/#appointment'
 
 WebUI.verifyEqual(actualUrl, expectedUrl)
 

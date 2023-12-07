@@ -17,3 +17,38 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://katalon.com/community-hub')
+
+WebUI.click(findTestObject('Page_Katalon Community Hub/btn_Accept All Cookies'))
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('Page_Katalon Community Hub/btn_Join us now'))
+
+WebUI.switchToWindowIndex(1)
+
+WebUI.delay(5)
+
+actual_title = WebUI.getWindowTitle()
+
+expected_title = 'Katalon Community'
+
+WebUI.verifyEqual(actual_title, expected_title)
+
+WebUI.verifyElementPresent(findTestObject('Page_Katalon Community Hub/Page_Katalon Community/text_Welcome to Katalon Community'), 
+    5)
+
+WebUI.focus(findTestObject('Page_Katalon Community Hub/Page_Katalon Community/btn_Maybe later'))
+
+WebUI.rightClick(findTestObject('Page_Katalon Community Hub/Page_Katalon Community/btn_Maybe later'))
+
+not_run: WebUI.switchToWindowTitle('Katalon Community')
+
+not_run: WebUI.switchToWindowUrl('https://forum.katalon.com/latest')
+
+not_run: WebUI.closeWindowUrl('https://forum.katalon.com/latest')
+
+not_run: WebUI.closeBrowser()
+
