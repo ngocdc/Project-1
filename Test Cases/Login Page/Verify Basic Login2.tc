@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-<<<<<<< HEAD
-   <name>Verify Basic Login</name>
 =======
    <name>Verify Basic Login99</name>
 >>>>>>> fc9eb12575a79e1c1df12f5f42209f4b7df5ba3e
